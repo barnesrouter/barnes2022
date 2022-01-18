@@ -1,0 +1,31 @@
+footer {
+  .top-footer {
+    background: $lttan;
+    padding: 40px 20px 10px 10px;
+  }
+  .sub-footer {
+    padding: 20px;
+  }
+  .footerbarnes {
+    width: 200px;
+  }
+  .footerbarnes {
+    height: 53px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.footer-nav {
+  a:link,
+  a:active,
+  a:visited {
+    color: $brown;
+  }
+  @media screen and (min-width: $screen-md) {
+    margin-top: 46px;
+    margin-bottom: 0;
+  }
+}

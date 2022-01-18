@@ -1,0 +1,154 @@
+.logo-contain {
+  background: rgba(255, 255, 255, 0.7);
+  flex: 1;
+  padding-left: 10px;
+}
+.logo {
+  display: block !important;
+
+  height: 70px;
+  width: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+picture {
+  display: block;
+  img {
+    display: block;
+  }
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+$height-icon: 21px;
+$width-line: 36px;
+$height-line: 3px;
+$transition-time: 0.4s;
+$rotation: 45deg;
+$translateX: 0;
+
+$transition-time: 0.4s;
+$rotation: 45deg;
+$translateY: ($height-icon / 2);
+$translateX: 0;
+.hamburger {
+  background: $green;
+  cursor: pointer;
+}
+.hamburger.active {
+  background: $brown;
+}
+
+.ham-trigger {
+  padding: 0 30px;
+  height: 100%;
+}
+
+.ham-button {
+  position: relative;
+  z-index: 100;
+  width: $width-line;
+  height: $height-icon;
+  display: block;
+
+  .line {
+    display: block;
+    background: $brown;
+
+    width: $width-line;
+    height: $height-line;
+    position: absolute;
+
+    //border-radius: ($height-line / 2);
+    transition: all $transition-time;
+    -webkit-transition: all $transition-time;
+    -moz-transition: all $transition-time;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    &.line-1 {
+      top: 0;
+    }
+    &.line-2 {
+      top: 50%;
+    }
+    &.line-3 {
+      top: 100%;
+    }
+  }
+  &:hover,
+  &:focus {
+    .line-1 {
+      transform: translateY($height-line / 2 * -1);
+      -webkit-transform: translateY($height-line / 2 * -1);
+      -moz-transform: translateY($height-line / 2 * -1);
+    }
+    .line-3 {
+      transform: translateY($height-line / 2);
+      -webkit-transform: translateY($height-line / 2);
+      -moz-transform: translateY($height-line / 2);
+    }
+  }
+  &.active {
+    .line-1 {
+      transform: translateY($translateY) translateX($translateX)
+        rotate($rotation);
+      -webkit-transform: translateY($translateY) translateX($translateX)
+        rotate($rotation);
+      -moz-transform: translateY($translateY) translateX($translateX)
+        rotate($rotation);
+    }
+    .line-2 {
+      opacity: 0;
+    }
+    .line-3 {
+      transform: translateY($translateY * -1) translateX($translateX)
+        rotate($rotation * -1);
+      -webkit-transform: translateY($translateY * -1) translateX($translateX)
+        rotate($rotation * -1);
+      -moz-transform: translateY($translateY * -1) translateX($translateX)
+        rotate($rotation * -1);
+    }
+  }
+}
+
+.active {
+  .ham-button {
+    .line {
+      background: $orange;
+    }
+  }
+}
+
+.navigation {
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background: $brown;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-buffer {
+    height: 100%;
+
+    overflow: scroll;
+    > div {
+      height: 100%;
+    }
+  }
+}

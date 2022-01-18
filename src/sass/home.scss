@@ -1,0 +1,181 @@
+.video-contain {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  &__gradient {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3f3f4+0,f3f3f4+100&0+0,1+100 */
+    background: -moz-linear-gradient(
+      top,
+      rgba(243, 243, 244, 0) 0%,
+      rgba(243, 243, 244, 1) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(243, 243, 244, 0) 0%,
+      rgba(243, 243, 244, 1) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(243, 243, 244, 0) 0%,
+      rgba(243, 243, 244, 1) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f3f3f4', endColorstr='#f3f3f4',GradientType=0 ); /* IE6-9 */
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
+video {
+  opacity: 0.9;
+}
+video,
+.videoImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+.callto {
+  position: relative;
+  height: 100vh;
+
+  .callto-content {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 200px;
+    h1 {
+      color: #fff;
+      text-shadow: 0 2px 10px #000000;
+      margin: 0;
+      span {
+        position: absolute;
+        left: -9999em;
+      }
+    }
+  }
+}
+
+.heroImage {
+  width: 250px;
+  @media screen and (min-width: $screen-md) {
+    width: 350px;
+  }
+}
+.logoImage {
+  width: 200px;
+  margin: 0 auto;
+}
+
+a.down-button {
+  display: inline-block;
+}
+
+.barnes-fontawesome {
+  color: #fff;
+  margin-top: 10px;
+}
+
+// #first
+
+.gray-back {
+  background: $ltgray;
+  &__washedout {
+    background: $ltgray url(../../content/assets/Barnes-Mid-Backgroundjpg.jpg)
+      no-repeat center center;
+    background-size: 1024px 708px;
+    @media screen and (min-width: $screen-md) {
+      background-size: 2000px 1383px;
+    }
+    min-height: 400px;
+  }
+}
+
+.triple {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  position: relative;
+  aside {
+    margin: 0 10% 40px;
+    @media screen and (min-width: $screen-md) {
+      margin: 0;
+    }
+  }
+  .triple-text {
+    position: relative;
+    padding: 10px;
+    @media screen and (min-width: $screen-md) {
+      padding: 30px 20px;
+    }
+    background: #fff;
+    margin: -20px 15px 0;
+    position: relative;
+
+    h3 {
+      font-weight: 300;
+      margin: 0;
+      position: relative;
+    }
+    h3::after {
+      content: "";
+      height: 2px;
+      width: 80%;
+
+      background-color: $lttan;
+      position: absolute;
+      bottom: -10px;
+      left: 10%;
+    }
+    a {
+      transition: background 0.3s ease;
+    }
+    a:link,
+    a:active,
+    a:visited {
+      color: $midbrown;
+      background: #fff;
+    }
+    a:hover {
+      background: $lttan;
+    }
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      border: 2px solid $lttan;
+      font-size: 0.9em;
+      margin-top: -5px;
+    }
+  }
+}
+
+.quad {
+  margin-top: 0;
+  flex-wrap: wrap;
+  .triple-text {
+    margin: 20px 0 0 0;
+
+    flex: 0 0 48%;
+    @media screen and (min-width: $screen-xl) {
+      flex: 0 0 23%;
+    }
+  }
+}
+
+.triple-nomargin {
+  margin-top: 10px;
+}
+
+.opportunities {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}

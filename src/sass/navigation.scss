@@ -1,0 +1,217 @@
+.navigation {
+  a {
+    display: block;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+  }
+  a:link,
+  a:active,
+  a:visited {
+    color: #fff;
+  }
+  a:hover {
+    color: $orange;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .accordion__section {
+    button.accordion-inner {
+      background-color: transparent;
+      border: 0;
+      display: block;
+      padding: 0;
+      font: inherit;
+      width: 100%;
+      text-align: left;
+      color: #fff;
+      border-bottom: 4px solid $midbrown;
+      cursor: pointer;
+    }
+    button:focus {
+      outline: none;
+    }
+    button.accordion-inner.active {
+      border-bottom-color: transparent;
+      h4 {
+        span {
+          svg {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+  }
+
+  .accordion__content {
+    padding-left: 10px;
+    > ul {
+      background: $midbrown;
+      padding: 3px;
+    }
+    li {
+      position: relative;
+      border-left: 10px solid $orange;
+      left: -5px;
+      a {
+        padding-left: 10px;
+      }
+    }
+  }
+  h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    position: relative;
+    span {
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      right: 10px;
+      display: block;
+      top: 0;
+      svg {
+        fill: #fff;
+        transform: rotate(0deg);
+        transition: transform 0.4s ease;
+      }
+    }
+  }
+}
+
+.menu-content,
+.menu-image {
+  flex: 0 0 50%;
+}
+
+.nav-buffer {
+  > div > ul {
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.menu-image {
+  position: absolute;
+
+  @media screen and (min-width: $screen-md) {
+    right: 0;
+    height: 500px;
+    width: 490px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  > div {
+    @media screen and (min-width: $screen-md) {
+      top: 0;
+      width: 490px;
+      height: 100%;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: left center;
+    }
+  }
+}
+
+.fake-back {
+  position: absolute;
+  right: 0;
+  height: 500px;
+  width: 490px;
+  @media screen and (min-width: $screen-md) and (min-height: 1054px) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media screen and (min-width: $screen-md) {
+    background-image: url(../../content/assets/Ham-Home-Fall.jpg);
+  }
+}
+
+#gc {
+  .menu-image {
+    > div {
+      background-image: url(../../content/assets/Ham-Garden-Center-Fall.jpg);
+    }
+  }
+}
+
+#lc {
+  .menu-image {
+    > div {
+      background-image: url(../../content/assets/Barnes-Menu-Image-LC-1.jpg);
+    }
+  }
+}
+
+#lm {
+  .menu-image {
+    > div {
+      background-image: url(../../content/assets/Barnes-Menu-Image-LM.jpg);
+    }
+  }
+}
+
+#cs {
+  .menu-image {
+    > div {
+      background-image: url(../../content/assets/Barnes-Menu-Image-CS-1.jpg);
+    }
+  }
+}
+
+#au {
+  .menu-image {
+    > div {
+      background-image: url(../../content/assets/Barnes-Menu-Image-AU.jpg);
+    }
+  }
+}
+
+.accordion__section {
+  .menu-image {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+}
+.accordion__section .active {
+  .menu-image {
+    opacity: 1;
+  }
+}
+
+.nav-buffer .flex-vertical-modified {
+  position: relative;
+}
+
+/*
+.accordion__section:hover {
+  .menu-image {
+    opacity: 1;
+  }
+}
+*/
+
+.navigation {
+  .link-border {
+    border-bottom: 4px solid $midbrown;
+  }
+  h4 {
+    font-size: 1.3em !important;
+  }
+  .stand-alone-link {
+    h4 {
+      border-bottom: 4px solid $midbrown;
+    }
+  }
+  .social {
+    a {
+      display: inline-block;
+      min-width: 44px;
+      padding: 5px;
+      margin-right: 5px;
+    }
+  }
+}

@@ -1,0 +1,120 @@
+// Sass for forms
+legend {
+  padding-top: 20px;
+  border-bottom: 1px solid $lttan;
+  padding-bottom: 10px;
+  .btn {
+    background: $green;
+    color: white;
+  }
+}
+legend.small-legend {
+  border-bottom: none;
+  padding-bottom: inherit;
+  font-size: 1em;
+}
+form .padding {
+  padding: 5px 10px;
+}
+
+.text-muted {
+  position: absolute;
+  left: -9999em;
+}
+.text-opacity {
+  opacity: 0;
+}
+
+.text-primary {
+  color: $midbrown !important;
+}
+
+.text-notmuted {
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  color: $lttan;
+}
+
+.form-control {
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid $lttan;
+  border-left: none;
+  color: $lttan;
+}
+
+.form-control::placeholder {
+  color: $lttan;
+}
+
+textarea.form-control {
+  border: 1px solid $lttan;
+  color: $midbrown;
+  min-height: 125px;
+}
+
+.btn-secondary {
+  background-color: $midbrown;
+  border-color: $midbrown;
+}
+
+.btn-secondary:hover {
+  background-color: $brown;
+}
+
+.feedback-inactive {
+  display: none;
+}
+
+.feedback-active {
+  display: block !important;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.checkbox-group {
+  label {
+    display: block;
+  }
+}
+
+.label-like {
+  padding-bottom: 15px;
+}
+
+.form-padding-top {
+  padding-top: 20px;
+}
+
+form {
+  .border-bottom {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+#formikform {
+  .accordion {
+    button.accordion-inner {
+      border: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
+.green {
+  color: $green;
+}
+
+.orange {
+  color: $orange;
+}
+
+.erroring {
+  color: #dc3545;
+}

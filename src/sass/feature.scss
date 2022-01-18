@@ -1,0 +1,162 @@
+// Feature Focus for the end of the home page.
+
+.feature {
+  padding: 60px 0;
+  .forty {
+    margin-top: -80px;
+    padding: 0 40px;
+    position: relative;
+    .parallax-outer {
+      width: 100%;
+    }
+
+    .parallax-inner {
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+      background: #fff;
+      padding: 40px 20px;
+      iframe {
+        min-height: 241px;
+      }
+    }
+  }
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-dialog {
+  min-width: 400px;
+}
+
+.over-under {
+  p,
+  .p {
+    font-size: 1.6em;
+    margin: 0;
+  }
+  position: relative;
+  overflow: hidden;
+  min-height: 550px;
+  @media screen and (min-width: $screen-md) {
+    min-height: 700px;
+  }
+}
+
+.underlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #000;
+  .underlay-img {
+    opacity: 0.5;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.overlay {
+  position: relative;
+  color: #fff;
+  z-index: 10;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  .askbarneswhite {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .newsletterwhite {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+  }
+  h2 {
+    text-shadow: 0 2px 10px #000000;
+    font-size: 1.9em;
+    margin: 0;
+    span {
+      position: absolute;
+      z-index: 10;
+    }
+    span.go-away {
+      left: -999em;
+    }
+    span.go-1 {
+      left: 140px;
+      top: 12px;
+      @media screen and (min-width: $screen-sm) {
+        left: 193px;
+        top: 32px;
+      }
+    }
+    span.go-2 {
+      left: 220px;
+      top: 12px;
+      @media screen and (min-width: $screen-sm) {
+        left: 113px;
+        top: 73px;
+      }
+    }
+    span.go-3 {
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      top: 63px;
+      @media screen and (min-width: $screen-sm) {
+        top: 60px;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+.ask-barnes {
+  .forty {
+    @media screen and (min-width: $screen-md) {
+      left: 40px;
+      z-index: 10;
+      margin-top: -40px;
+      padding: 0;
+    }
+  }
+}
+
+.newsletter {
+  .forty {
+    @media screen and (min-width: $screen-md) {
+      right: 40px;
+      z-index: 10;
+      margin-top: -40px;
+      padding: 0;
+    }
+  }
+}
+
+// oberlin stuff
+.oberlin-subscribe {
+  iframe {
+    min-height: 220px;
+  }
+}
+
+.pointatme {
+  cursor: pointer;
+}
+.over-banner.oberlinn {
+  @media screen and (min-width: $screen-md) {
+    margin-top: -300px !important;
+  }
+  .oberlinstuff.inside-content {
+    padding: 0;
+  }
+}

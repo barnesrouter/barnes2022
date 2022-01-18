@@ -1,0 +1,21 @@
+@import "colors";
+@import "grid";
+@import "fonts";
+@import "header";
+@import "navigation";
+@import "footer";
+@import "home";
+@import "tabbed";
+@import "feature";
+@import "forms";
+@import "interior";
+@import "imgfix";
+
+body {
+  background-color: $ltgray;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}

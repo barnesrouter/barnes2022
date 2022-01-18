@@ -1,0 +1,245 @@
+// Interior page styles
+
+.blog-title {
+  color: $green;
+}
+
+.color-green {
+  color: $green;
+}
+.error404 {
+  height: 300px;
+  text-align: center;
+  @media screen and (min-width: $screen-md) {
+    height: 400px;
+  }
+  > div {
+    width: 100%;
+  }
+}
+
+.nopadd-bottom {
+  padding-bottom: 0 !important;
+}
+
+.nopadd-top {
+  padding-top: 0 !important;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .overlay-test {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .video-contain__gradient {
+    height: 150px;
+  }
+  .bannerImage {
+    img {
+      display: block;
+      position: absolute;
+      left: 50%;
+
+      // options
+      width: 1024px;
+      height: 341px;
+
+      @media screen and (min-width: $screen-md) {
+        width: 1500px;
+        height: 500px;
+      }
+      @media screen and (min-width: $screen-xl) {
+        width: 2500px;
+        height: 833px;
+      }
+    }
+    > div {
+      height: 341px;
+      @media screen and (min-width: $screen-md) {
+        height: 500px;
+      }
+      @media screen and (min-width: $screen-xl) {
+        height: 833px;
+      }
+    }
+  }
+}
+
+.over-banner {
+  margin-top: -30px;
+  @media screen and (min-width: $screen-md) {
+    margin-top: -80px;
+  }
+  position: relative;
+  h1 {
+    color: #fff;
+
+    margin: 0;
+
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    @media screen and (min-width: $screen-md) {
+      font-size: 3em;
+    }
+  }
+
+  .inside-content {
+    background: $ltgray;
+    padding: 40px;
+    min-height: 200px;
+  }
+}
+
+.page-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  h1 {
+    text-shadow: 0 2px 10px #000000;
+    span {
+      position: absolute;
+      left: -999em;
+    }
+  }
+}
+
+.heroImage.pageImage {
+  width: 300px;
+}
+
+a.button:link,
+a.button:active,
+a.button:visited {
+  color: $midbrown;
+  background: #fff;
+}
+a.button:hover {
+  background: $lttan;
+}
+
+a.button {
+  transition: background 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 2px solid $lttan;
+  font-size: 0.9em;
+  margin-top: -5px;
+}
+
+.in-image {
+  background: #000;
+  position: relative;
+  .in-image-img {
+    opacity: 0.7;
+  }
+  .in-image-text {
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: $newberry;
+    text-shadow: 0 2px 10px #000000;
+    font-size: 1.3em;
+    @media screen and (min-width: $screen-md) {
+      font-size: 1.9em;
+    }
+  }
+  .video-contain__gradient {
+    height: 40%;
+  }
+}
+
+main li {
+  margin-bottom: 12px;
+}
+
+.inline-img {
+  width: 291px;
+  height: 300px;
+}
+.inline-img.floatright,
+.inline-img-2.floatright {
+  margin: 20px 0 20px 30px;
+}
+
+.inline-img-2 {
+  width: 342px;
+  height: 222px;
+}
+
+ol.auto-grid {
+  padding: 0;
+  margin: 0;
+  li {
+    background: #fff;
+    a:link,
+    a:active,
+    a:visited {
+      color: $green;
+    }
+    small {
+      color: #fff;
+      background: $lttan;
+      padding: 5px 8px;
+      position: relative;
+      top: -5px;
+      font-size: 90%;
+    }
+    h3 {
+      position: relative;
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+    h3::after {
+      content: "";
+      position: absolute;
+      width: 80%;
+      height: 1px;
+      margin: 0 10%;
+      background: $lttan;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: 20px;
+}
+
+.blog-adjust {
+  .inside-content {
+    padding: 0;
+    @media screen and (min-width: $screen-md) {
+      padding: 40px;
+    }
+  }
+}
+
+.post-list-item {
+  padding: 0 10px 20px;
+  @media screen and (min-width: $screen-md) {
+    padding: 0 20px 20px;
+  }
+  section {
+    text-align: left;
+  }
+}
