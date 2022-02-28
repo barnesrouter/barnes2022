@@ -9,7 +9,7 @@ import AskBarnes from "../components/askbarnes"
 import Newsletter from "../components/newsletter"
 import SEO from "../components/seo"
 
-import BarnesLoop from "../../content/assets/BarnesWinterShort.mp4"
+import BarnesLoop from "../../content/assets/BarnesHomeVideoSpring2022.mp4"
 
 import { Parallax } from 'react-scroll-parallax';
 
@@ -38,7 +38,7 @@ const BlogIndex = ({ data, location }) => {
         <div className="callto align-vertical">
           <div className="callto-content text-center">
               <img src={logo1} alt="Barnes Logo" className="heroImage" />
-              <h1><span>Barnes </span>We've Turned a Leaf</h1>
+              <h1><span>Barnes </span>Let's Spring Ahead</h1>
               <AnchorLink to="/#first" className="down-button" title="Down" role="button" tabIndex="0"><img src={arrow1} alt="down"/></AnchorLink>
           </div>
         </div>
