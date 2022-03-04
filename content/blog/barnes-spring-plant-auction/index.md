@@ -1,5 +1,5 @@
 ---
-title: Barnes Spring Plant  Auction
+title: Barnes Spring Nursery Stock Auction
 date: 2021-12-09T11:18:53.751Z
 edate: 2022-04-16T14:00:00.000Z
 description: ""
