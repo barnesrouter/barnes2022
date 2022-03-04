@@ -3,7 +3,6 @@ title: Huron Garden Center
 ---
 ##### Hours:
 
-OPENING FEBRUARY 28th, 2022\
 Mon - Fri: 9am - 4pm\
 Sat & Sun: CLOSED
 
