@@ -3,9 +3,7 @@ title: Catawba Garden Center
 ---
 ##### Hours:
 
-Mon - Sat: 9am - 5pm\
-Sun: 10am - 5pm\
-CLOSING DEC 18th FOR THE SEASON
+Re-Opening Soon!
 
 ##### Address:
 
