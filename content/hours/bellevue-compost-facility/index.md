@@ -3,8 +3,7 @@ title: Bellevue Compost Facility
 ---
 ##### Hours:
 
-CLOSED FOR THE SEASON\
-Re-opening April 2022
+Re-opening April 1st, 2022
 
 ##### Address:
 
