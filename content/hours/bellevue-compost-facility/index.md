@@ -5,6 +5,14 @@ title: Bellevue Compost Facility
 
 Re-opening April 1st, 2022
 
+Monday: 9:00am – 6:00pm
+Tuesday: CLOSED
+Wednesday: CLOSED
+Thursday: CLOSED
+Friday: 9:00am – 6:00pm
+Saturday: 8:00am – 5:00pm
+Sunday: 10:00am – 4:00pm
+
 ##### Address:
 
 510 Great Lakes Parkway Bellevue, OH 44811
