@@ -7,11 +7,15 @@ import Img from "gatsby-image"
 import { Parallax } from 'react-scroll-parallax';
 
 import logo1 from "../../../content/assets/Barnes-White-Web-sm.png";
-import retailHuron from "../../../content/assets/pdfs/Retail-2021-Bulk-Pricing-Huron.pdf";
-import retailCatawba from "../../../content/assets/pdfs/Retail-2021-Bulk-Pricing-Catawba.pdf"
-import compostingInbound from "../../../content/assets/pdfs/2021-INBOUND-Fees-Huron-Compost-Facility.pdf";
-import compostingBellevuepdf from "../../../content/assets/pdfs/2021-Bellevue-Flyer.pdf";
-import compostingElyriapdf from "../../../content/assets/pdfs/2021-Elyria-Flyer.pdf";
+import bulkHuron2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Huron.pdf";
+import bulkCatawba2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Catawba.pdf";
+import bulkBellevue2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Bellevue.pdf";
+import bulkElyria2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Elyria.pdf";
+
+import compostingHuron2022 from "../../../content/assets/pdfs/2022/2022-Huron-Disposal.pdf";
+import compostingBellevue2022 from "../../../content/assets/pdfs/2022/2022-Bellevue-Disposal.pdf";
+import compostingElyria2022 from "../../../content/assets/pdfs/2022/2022-Elyria-Disposal.pdf";
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -23,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
 
         <Img
           fluid={data.landscapeMaterials.childImageSharp.fluid}
-          alt="Test"
+          alt="Landscape Materials"
           className="bannerImage"
         />
         <div className="overlay-test"></div>
@@ -66,15 +70,17 @@ const BlogIndex = ({ data, location }) => {
 
           <h4>Current Bulk Products</h4>
           <p>
-            <a href={retailHuron}>Huron Retail Pricing</a><br />
-            <a href={retailCatawba}>Catawba Retail Pricing</a><br />
+            <a href={bulkHuron2022}>2022 Huron Retail Pricing</a><br />
+            <a href={bulkCatawba2022}>2022 Catawba Retail Pricing</a><br />
+            <a href={bulkBellevue2022}>2022 Bellevue Retail Pricing</a><br />
+            <a href={bulkElyria2022}>2022 Elyria Retail Pricing</a>
           </p>
 
           <h4>Disposal Fees</h4>
           <p>
-            <a href={compostingInbound}>2021 Inbound Fees</a><br />
-            <a href={compostingBellevuepdf}>Bellevue Facility</a><br />
-            <a href={compostingElyriapdf}>Elyria Facility</a>
+            <a href={compostingHuron2022}>2022 Huron Facility</a><br />
+            <a href={compostingBellevue2022}>2022 Bellevue Facility</a><br />
+            <a href={compostingElyria2022}>2022 Elyria Facility</a>
           </p>
 
           <h4>FAQ's</h4>
