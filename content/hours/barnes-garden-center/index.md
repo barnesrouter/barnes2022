@@ -12,5 +12,5 @@ Sat & Sun: CLOSED
 
 ##### Contact:
 
-[(419) 433-5525](tel:419-433-5525)\
+[419-433-5525](tel:419-433-5525)\
 [info@barnesnursery.com](mailto:info@barnesnursery.com)
