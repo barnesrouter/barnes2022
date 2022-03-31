@@ -11,3 +11,5 @@ featuredimage: ""
 **Barnes Huron Garden Center**
 
 **Registration begins at 9:00am**
+
+**CHECK BACK FOR FULL PLANT LIST - COMING SOON!**
