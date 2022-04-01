@@ -12,6 +12,8 @@ featuredimage: ""
 
 **Registration begins at 9:00am**
 
+**Email info@barnesnursery.com to request a PDF copy emailed to you.**
+
 ROW	LOT	ITEM DESCRIPTION	Quantity
 			
 5	1	Pavers  (5 pallets) -  Unilock Rivercrest, approx 400 sq ft	5
