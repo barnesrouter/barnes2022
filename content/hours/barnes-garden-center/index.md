@@ -3,8 +3,8 @@ title: Huron Garden Center
 ---
 ##### Hours:
 
-Mon - Sat: 9am - 4pm\
-Sun: CLOSED
+Monday - Saturday: 9am - 4pm\
+Sunday: CLOSED
 
 Open 7 days a week beginning April 4th
 
