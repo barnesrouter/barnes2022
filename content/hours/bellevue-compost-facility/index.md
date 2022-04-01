@@ -3,8 +3,6 @@ title: Bellevue Compost Facility
 ---
 ##### Hours:
 
-Re-opening April 1st, 2022
-
 Monday: 9:00am – 6:00pm\
 Tuesday: CLOSED\
 Wednesday: CLOSED\
