@@ -3,8 +3,6 @@ title: Elyria Compost Facility
 ---
 ##### Hours:
 
-Re-opening April 1st, 2022
-
 Monday: 9:00am – 5:00pm\
 Tuesday: 9:00am – 5:00pm\
 Wednesday: 11:00am – 7:00pm\
