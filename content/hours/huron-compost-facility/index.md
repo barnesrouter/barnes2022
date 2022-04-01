@@ -3,9 +3,9 @@ title: Huron Compost Facility
 ---
 ##### Hours:
 
-Mon - Fri: 8am - 5pm\
-Sat: 8am - 4pm\
-Sun: 10am - 4pm
+Monday - Friday: 8am - 5pm\
+Saturday: 8am - 4pm\
+Sunday: 10am - 4pm
 
 ##### Address:
 
