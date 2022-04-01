@@ -12,7 +12,7 @@ featuredimage: ""
 
 Registration begins at 9:00am
 
-Email info@barnesnursery.com to request a PDF copy emailed to you.
+Email [info@barnesnursery.com](info@barnesnursery.com) to request a PDF copy emailed to you.
 
 
 
