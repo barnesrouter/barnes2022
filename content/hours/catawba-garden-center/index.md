@@ -3,11 +3,9 @@ title: Catawba Garden Center
 ---
 ##### Hours:
 
-Opening April 4th:
-
 Monday-Friday: 9am - 5pm\
 Saturday: 9am - 4pm\
-Sunday:10am - 4pm
+Sunday: 10am - 4pm
 
 ##### Address:
 
