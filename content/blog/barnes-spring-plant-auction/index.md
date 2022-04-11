@@ -14,8 +14,6 @@ Registration begins at 9:00am
 
 Email [info@barnesnursery.com](info@barnesnursery.com) to request a PDF copy emailed to you.
 
-
-
 |                               |     |                                                             |                       |
 | ----------------------------- | --- | ----------------------------------------------------------- | --------------------- |
 | <!--StartFragment-->[ROW](<>) | LOT | ITEM DESCRIPTION                                            | Quantity              |
@@ -66,7 +64,7 @@ Email [info@barnesnursery.com](info@barnesnursery.com) to request a PDF copy ema
 |                               |     |                                                             |                       |
 | 5                             | 23  | Dappled Willow                                              | 2                     |
 |                               |     |                                                             |                       |
-| 5                             | 24  | Emerald Green Arborvitae BB 6-7'                            | 2                     |
+| 5                             | 24  | Emerald Green Arborvitae BB 6-7'                            | 5                     |
 |                               |     |                                                             |                       |
 | 5                             | 25  | Yucca assortment                                            | 5                     |
 |                               |     |                                                             |                       |
@@ -82,7 +80,7 @@ Email [info@barnesnursery.com](info@barnesnursery.com) to request a PDF copy ema
 |                               |     |                                                             |                       |
 | 5                             | 31  | Canadian Hemlock BB 7-8'                                    | 4                     |
 |                               |     |                                                             |                       |
-| 5                             | 32  | Evergreen assortment (Wp Hemlock and Falsecpress)           | 3                     |
+| 5                             | 32  | Evergreen assortment (Wp Hemlock and Falsecypress)          | 3                     |
 |                               |     |                                                             |                       |
 | 5                             | 33  | White Spruce BB 6-7'                                        | 3                     |
 |                               |     |                                                             |                       |
@@ -149,7 +147,7 @@ Email [info@barnesnursery.com](info@barnesnursery.com) to request a PDF copy ema
 |                               |     |                                                             |                       |
 | 6                             | 63  | Colorado Spruce assortment BB 7-8'                          | 3                     |
 |                               |     |                                                             |                       |
-| 6                             | 64  | Taxus Hicks BB 3-4'                                         | 10                    |
+| 6                             | 64  | Taxus Hicks BB 3-4'                                         | 4                     |
 |                               |     |                                                             |                       |
 | 6                             | 65  | Bamboo Grass                                                | 5                     |
 |                               |     |                                                             |                       |
@@ -169,11 +167,11 @@ Email [info@barnesnursery.com](info@barnesnursery.com) to request a PDF copy ema
 |                               |     |                                                             |                       |
 | 6                             | 73  | White Spruce BB 8-9'                                        | 4                     |
 |                               |     |                                                             |                       |
-| 6                             | 74  | Juniper Gold Star                                           | 6                     |
+| 6                             | 74  | Juniper Gold Star                                           | 5                     |
 |                               |     |                                                             |                       |
 | 6                             | 75  | Arborvitae assorted (2 Holmstrup and 2 Green Giant)         | 4                     |
 |                               |     |                                                             |                       |
-| 6                             | 76  | Emerald Green Arborvitae                                    | 4                     |
+| 6                             | 76  | Emerald Green Arborvitae                                    | 5                     |
 |                               |     |                                                             |                       |
 | 6                             | 77  | Arborvitae Yellow Ribbon assortment                         | 3                     |
 |                               |     |                                                             |                       |
