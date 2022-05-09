@@ -46,7 +46,7 @@ var styles = {
   textAlign: 'left',
 };
 
-var ansiHTML = __webpack_require__(/*! ansi-html */ "./node_modules/ansi-html/index.js");
+var ansiHTML = __webpack_require__(/*! ansi-html-community */ "./node_modules/ansi-html-community/index.js");
 var colors = {
   reset: ['transparent', 'transparent'],
   black: '181818',
@@ -148,7 +148,7 @@ var options = {
   overlayWarnings: false,
   ansiColors: {},
 };
-if (false) { var overrides, querystring; }
+if (false) { var overrides, URLSearchParams; }
 
 if (typeof window === 'undefined') {
   // do nothing
@@ -1424,10 +1424,10 @@ module.exports = initWHMEventSource;
 
 /***/ }),
 
-/***/ "./node_modules/ansi-html/index.js":
-/*!*****************************************!*\
-  !*** ./node_modules/ansi-html/index.js ***!
-  \*****************************************/
+/***/ "./node_modules/ansi-html-community/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/index.js ***!
+  \***************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -1492,7 +1492,7 @@ function ansiHTML (text) {
   // Cache opened sequence.
   var ansiCodes = []
   // Replace with markup.
-  var ret = text.replace(/\033\[(\d+)*m/g, function (match, seq) {
+  var ret = text.replace(/\033\[(\d+)m/g, function (match, seq) {
     var ot = _openTags[seq]
     if (ot) {
       // If current sequence has been opened, close it.
@@ -2842,7 +2842,7 @@ module.exports = netlifyIdentity;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "3674f8734054a92af8ba"; }
+/******/ 		__webpack_require__.h = function() { return "55d96417f22461b7d88d"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -2942,7 +2942,8 @@ module.exports = netlifyIdentity;
 /******/ 		var currentStatus = "idle";
 /******/ 		
 /******/ 		// while downloading
-/******/ 		var blockingPromises;
+/******/ 		var blockingPromises = 0;
+/******/ 		var blockingPromisesWaiting = [];
 /******/ 		
 /******/ 		// The update info
 /******/ 		var currentUpdateApplyHandlers;
@@ -3132,17 +3133,28 @@ module.exports = netlifyIdentity;
 /******/ 			return Promise.all(results);
 /******/ 		}
 /******/ 		
+/******/ 		function unblock() {
+/******/ 			if (--blockingPromises === 0) {
+/******/ 				setStatus("ready").then(function () {
+/******/ 					if (blockingPromises === 0) {
+/******/ 						var list = blockingPromisesWaiting;
+/******/ 						blockingPromisesWaiting = [];
+/******/ 						for (var i = 0; i < list.length; i++) {
+/******/ 							list[i]();
+/******/ 						}
+/******/ 					}
+/******/ 				});
+/******/ 			}
+/******/ 		}
+/******/ 		
 /******/ 		function trackBlockingPromise(promise) {
 /******/ 			switch (currentStatus) {
 /******/ 				case "ready":
 /******/ 					setStatus("prepare");
-/******/ 					blockingPromises.push(promise);
-/******/ 					waitForBlockingPromises(function () {
-/******/ 						return setStatus("ready");
-/******/ 					});
-/******/ 					return promise;
+/******/ 				/* fallthrough */
 /******/ 				case "prepare":
-/******/ 					blockingPromises.push(promise);
+/******/ 					blockingPromises++;
+/******/ 					promise.then(unblock, unblock);
 /******/ 					return promise;
 /******/ 				default:
 /******/ 					return promise;
@@ -3150,11 +3162,11 @@ module.exports = netlifyIdentity;
 /******/ 		}
 /******/ 		
 /******/ 		function waitForBlockingPromises(fn) {
-/******/ 			if (blockingPromises.length === 0) return fn();
-/******/ 			var blocker = blockingPromises;
-/******/ 			blockingPromises = [];
-/******/ 			return Promise.all(blocker).then(function () {
-/******/ 				return waitForBlockingPromises(fn);
+/******/ 			if (blockingPromises === 0) return fn();
+/******/ 			return new Promise(function (resolve) {
+/******/ 				blockingPromisesWaiting.push(function () {
+/******/ 					resolve(fn());
+/******/ 				});
 /******/ 			});
 /******/ 		}
 /******/ 		
@@ -3175,7 +3187,6 @@ module.exports = netlifyIdentity;
 /******/ 		
 /******/ 					return setStatus("prepare").then(function () {
 /******/ 						var updatedModules = [];
-/******/ 						blockingPromises = [];
 /******/ 						currentUpdateApplyHandlers = [];
 /******/ 		
 /******/ 						return Promise.all(
@@ -3212,7 +3223,11 @@ module.exports = netlifyIdentity;
 /******/ 		function hotApply(options) {
 /******/ 			if (currentStatus !== "ready") {
 /******/ 				return Promise.resolve().then(function () {
-/******/ 					throw new Error("apply() is only allowed in ready status");
+/******/ 					throw new Error(
+/******/ 						"apply() is only allowed in ready status (state: " +
+/******/ 							currentStatus +
+/******/ 							")"
+/******/ 					);
 /******/ 				});
 /******/ 			}
 /******/ 			return internalApply(options);
@@ -3477,7 +3492,8 @@ module.exports = netlifyIdentity;
 /******/ 		
 /******/ 		var currentUpdatedModulesList;
 /******/ 		var waitingUpdateResolves = {};
-/******/ 		function loadUpdateChunk(chunkId) {
+/******/ 		function loadUpdateChunk(chunkId, updatedModulesList) {
+/******/ 			currentUpdatedModulesList = updatedModulesList;
 /******/ 			return new Promise(function(resolve, reject) {
 /******/ 				waitingUpdateResolves[chunkId] = resolve;
 /******/ 				// start update chunk loading
@@ -3940,15 +3956,16 @@ module.exports = netlifyIdentity;
 /******/ 				) {
 /******/ 					promises.push(loadUpdateChunk(chunkId, updatedModulesList));
 /******/ 					currentUpdateChunks[chunkId] = true;
+/******/ 				} else {
+/******/ 					currentUpdateChunks[chunkId] = false;
 /******/ 				}
 /******/ 			});
 /******/ 			if (__webpack_require__.f) {
 /******/ 				__webpack_require__.f.jsonpHmr = function (chunkId, promises) {
 /******/ 					if (
 /******/ 						currentUpdateChunks &&
-/******/ 						!__webpack_require__.o(currentUpdateChunks, chunkId) &&
-/******/ 						__webpack_require__.o(installedChunks, chunkId) &&
-/******/ 						installedChunks[chunkId] !== undefined
+/******/ 						__webpack_require__.o(currentUpdateChunks, chunkId) &&
+/******/ 						!currentUpdateChunks[chunkId]
 /******/ 					) {
 /******/ 						promises.push(loadUpdateChunk(chunkId));
 /******/ 						currentUpdateChunks[chunkId] = true;
