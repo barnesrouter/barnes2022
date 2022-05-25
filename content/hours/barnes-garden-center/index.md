@@ -5,7 +5,7 @@ title: Huron Garden Center
 
 Monday - Saturday: 9am - 6pm\
 Sunday: 10am - 4pm\
-**OPEN MEMORIAL DAY 9am - 3pm**
+**OPEN MEMORIAL DAY: 9am - 3pm**
 
 ##### Address:
 
