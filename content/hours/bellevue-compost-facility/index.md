@@ -9,7 +9,8 @@ Wednesday: CLOSED\
 Thursday: CLOSED\
 Friday: 9:00am – 6:00pm\
 Saturday: 8:00am – 5:00pm\
-Sunday: 10:00am – 4:00pm
+Sunday: 10:00am – 4:00pm\
+**CLOSED MEMORIAL DAY**
 
 ##### Address:
 
