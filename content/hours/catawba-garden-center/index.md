@@ -4,8 +4,7 @@ title: Catawba Garden Center
 ##### Hours:
 
 Monday-Saturday: 9am - 6pm\
-Sunday: 10am - 4pm\
-**OPEN MEMORIAL DAY: 9am - 3pm**
+Sunday: 10am - 4pm
 
 ##### Address:
 
