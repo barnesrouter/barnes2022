@@ -10,7 +10,7 @@ Thursday: 9:00am – 5:00pm\
 Friday: 9:00am – 5:00pm\
 Saturday: 9:00am – 2:00pm\
 Sunday: CLOSED\
-**OPEN 4th of July: CLOSED**
+**CLOSED 4th of July**
 
 ##### Address:
 
