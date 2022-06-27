@@ -6,7 +6,7 @@ title: Huron Compost Facility
 Monday - Friday: 8am - 5pm\
 Saturday: 8am - 4pm\
 Sunday: 10am - 4pm\
-**OPEN 4th of July: CLOSED**
+**CLOSED 4th of July**
 
 ##### Address:
 
