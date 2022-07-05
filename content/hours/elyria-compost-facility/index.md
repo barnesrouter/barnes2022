@@ -3,7 +3,6 @@ title: Elyria Compost Facility
 ---
 ##### Hours:
 
-**CLOSED 4th of July**\
 Monday: 9:00am – 5:00pm\
 Tuesday: CLOSED\
 Wednesday: 11:00am – 7:00pm\
