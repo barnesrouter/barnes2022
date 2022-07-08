@@ -7,10 +7,10 @@ import Img from "gatsby-image"
 import { Parallax } from 'react-scroll-parallax';
 
 import logo1 from "../../../content/assets/Barnes-White-Web-sm.png";
-import bulkHuron2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Huron.pdf";
-import bulkCatawba2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Catawba.pdf";
-import bulkBellevue2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Bellevue.pdf";
-import bulkElyria2022 from "../../../content/assets/pdfs/2022/2022-Bulk-Product-Pricing-Elyria.pdf";
+import bulkHuron2022 from "../../../content/assets/pdfs/2022/july/2022-Bulk-Product-Pricing-Huron-Retail-Revised-july.pdf";
+import bulkCatawba2022 from "../../../content/assets/pdfs/2022/july/2022-Bulk-Product-Pricing-Catawba-Retail-Revised-july.pdf";
+import bulkBellevue2022 from "../../../content/assets/pdfs/2022/july/2022-Bulk-Product-List-AND-Pricing-Sheet-Bellevue-Compost-Facility.pdf";
+import bulkElyria2022 from "../../../content/assets/pdfs/2022/july/2022-Bulk-Product-List-AND-Pricing-Sheet-Elyria-Compost-Facility.pdf";
 
 import compostingHuron2022 from "../../../content/assets/pdfs/2022/2022-Huron-Disposal.pdf";
 import compostingBellevue2022 from "../../../content/assets/pdfs/2022/2022-Bellevue-Disposal.pdf";
@@ -70,10 +70,10 @@ const BlogIndex = ({ data, location }) => {
 
           <h4>Current Bulk Products</h4>
           <p>
-            <a href={bulkHuron2022}>2022 Huron Retail Pricing</a><br />
-            <a href={bulkCatawba2022}>2022 Catawba Retail Pricing</a><br />
-            <a href={bulkBellevue2022}>2022 Bellevue Retail Pricing</a><br />
-            <a href={bulkElyria2022}>2022 Elyria Retail Pricing</a>
+            <a href={bulkHuron2022}>2022 Huron Retail Pricing (updated)</a><br />
+            <a href={bulkCatawba2022}>2022 Catawba Retail Pricing (updated)</a><br />
+            <a href={bulkBellevue2022}>2022 Bellevue Retail Pricing (updated)</a><br />
+            <a href={bulkElyria2022}>2022 Elyria Retail Pricing (updated)</a>
           </p>
 
           <h4>Disposal Fees</h4>
