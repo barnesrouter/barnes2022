@@ -1,11 +1,11 @@
 ---
-title: Barnes Dog Days of Summer Tent & Sidewalk Sale
+title: Fall Plant Sale
 date: 2022-07-14T14:57:33.629Z
-edate: 2022-07-22T14:57:33.642Z
+edate: 2022-09-01T14:57:33.642Z
 publish: YES
 ---
-July 22nd-31st
+FALL PLANT SALE
 
-Come join us under the BIG TOP!  We will be celebrating dogs and summer and BIG SALES.
+Come enjoy 25% OFF in-stock Trees, Shrubs and Perennials.
 
-Bring your furry best friend for dog treats and giveaways and lots more!
+New fall arrivals are not included in this sale.
