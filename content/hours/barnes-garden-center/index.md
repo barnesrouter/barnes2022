@@ -4,7 +4,8 @@ title: Huron Garden Center
 ##### Hours:
 
 Monday - Saturday: 9am - 5pm\
-Sunday: 10am - 4pm
+Sunday: 10am - 4pm\
+OPEN LABOR DAY 10am-1pm
 
 ##### Address:
 
