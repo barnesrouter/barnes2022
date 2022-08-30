@@ -3,6 +3,8 @@ title: Huron Compost Facility
 ---
 ##### Hours:
 
+CLOSED LABOR DAY
+
 Monday - Friday: 8am - 5pm\
 Saturday: 8am - 4pm\
 Sunday: 10am - 4pm
