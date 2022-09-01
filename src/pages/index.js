@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+//import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Layout from "../components/layout"
 import Triple from "../components/triple"
@@ -9,12 +9,12 @@ import AskBarnes from "../components/askbarnes"
 import Newsletter from "../components/newsletter"
 import SEO from "../components/seo"
 
-import BarnesLoop from "../../content/assets/Barnes-Loop-Late-Spring-2022.mp4"
+import BarnesLoop from "../../content/assets/Fall2022LoopShort.mp4"
 
 import { Parallax } from 'react-scroll-parallax';
 
 import logo1 from "../../content/assets/Barnes-White-Web-sm.png";
-import arrow1 from "../../content/assets/white-arrow.png";
+//import arrow1 from "../../content/assets/white-arrow.png";
 import Opportunities from "../components/current-opportunities"
 
 
