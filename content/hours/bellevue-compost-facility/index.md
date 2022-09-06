@@ -3,8 +3,6 @@ title: Bellevue Compost Facility
 ---
 ##### Hours:
 
-CLOSED LABOR DAY
-
 Monday: 9:00am – 6:00pm\
 Tuesday: CLOSED\
 Wednesday: CLOSED\
