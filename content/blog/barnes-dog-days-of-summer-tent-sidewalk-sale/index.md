@@ -6,6 +6,6 @@ publish: YES
 ---
 FALL PLANT SALE
 
-Come enjoy 25% OFF in-stock Trees, Shrubs and Perennials.
+Come enjoy 4% OFF in-stock Potted Trees, Shrubs and Perennials
 
 New fall arrivals are not included in this sale.
