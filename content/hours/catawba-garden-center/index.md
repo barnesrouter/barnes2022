@@ -3,8 +3,8 @@ title: Catawba Garden Center
 ---
 ##### Hours:
 
-Monday - Saturday: 9am - 5pm\
-Sunday: 10am - 4pm
+Monday - Friday: 9am - 5pm\
+Saturday - Sunday: 10am - 4pm
 
 ##### Address:
 
