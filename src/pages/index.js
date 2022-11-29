@@ -9,7 +9,7 @@ import AskBarnes from "../components/askbarnes"
 import Newsletter from "../components/newsletter"
 import SEO from "../components/seo"
 
-import BarnesLoop from "../../content/assets/Fall2022LoopShort.mp4"
+import BarnesLoop from "../../content/assets/BarnesWinterShort.mp4"
 
 import { Parallax } from 'react-scroll-parallax';
 
