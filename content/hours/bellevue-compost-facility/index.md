@@ -3,6 +3,7 @@ title: Bellevue Compost Facility
 ---
 ##### Hours:
 
+**CLOSING FOR THE SEASON 12/11/22**\
 Monday: 9:00am – 5:00pm\
 Tuesday: CLOSED\
 Wednesday: CLOSED\
