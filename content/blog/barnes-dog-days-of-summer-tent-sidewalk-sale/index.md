@@ -1,9 +1,7 @@
 ---
-title: Fall Plant Sale
-date: 2022-07-14T14:57:33.629Z
-edate: 2022-11-01T14:57:33.642Z
+title: We are planning Spring 2023
+date: 2022-12-08T15:28:04.000Z
+edate: 2023-04-01T14:57:33.642Z
 publish: YES
 ---
-FALL PLANT SALE
-
-Come enjoy 40% OFF in-stock Potted Trees, Shrubs and Perennials
+S﻿tay tuned for Upcoming Events in 2023!
