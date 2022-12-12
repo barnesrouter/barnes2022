@@ -3,7 +3,7 @@ title: Elyria Compost Facility
 ---
 ##### Hours:
 
-**CLOSED FOR THE SEASON**
+**CLOSED FOR THE SEASON** 
 
 ##### Address:
 
